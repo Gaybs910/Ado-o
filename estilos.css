@@ -1,0 +1,192 @@
+/* Reset e estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo img {
+    height: 60px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffe66d;
+}
+
+/* Destaque */
+#destaque {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+#destaque h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#destaque p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Seção de animais */
+#animais {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+#animais h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #ff6b6b;
+}
+
+.animal-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    margin: 1rem;
+    display: inline-block;
+    width: 280px;
+    vertical-align: top;
+    transition: transform 0.3s;
+}
+
+.animal-card:hover {
+    transform: translateY(-5px);
+}
+
+.animal-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.animal-card h3 {
+    color: #ff6b6b;
+    margin-bottom: 0.5rem;
+}
+
+.animal-card p {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.animal-card button {
+    background-color: #4ecdc4;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+}
+
+.animal-card button:hover {
+    background-color: #3aa89f;
+}
+
+/* Processo de adoção */
+#processo {
+    background-color: #4ecdc4;
+    color: white;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+#processo h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#processo ol {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    list-style-position: inside;
+}
+
+#processo ol li {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+#contato {
+    margin-bottom: 1.5rem;
+}
+
+#contato h3 {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.redes-sociais {
+    margin: 1rem 0;
+}
+
+.redes-sociais a {
+    margin: 0 10px;
+}
+
+.redes-sociais img {
+    width: 30px;
+    height: 30px;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    color: #aaa;
+}
+
